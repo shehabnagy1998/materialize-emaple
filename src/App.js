@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route} from 'react-router-dom'
 
 class App extends Component {
 
-  state = {
-    
-  };
+  state = {};
 
   componentDidMount() {
     console.log('program started');
@@ -18,9 +17,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        
-      </div>
+      <BrowserRouter>
+        <div className="container">
+          
+        </div>
+      </BrowserRouter>
     );
   }
 }
