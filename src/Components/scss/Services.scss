@@ -1,0 +1,11 @@
+.services {
+    div > .tabs {
+        margin-top: 20px;
+        @media screen and (min-width: 670px){
+            margin-top: 0;
+        } 
+    }
+    h2 {
+        font-size: 2.5rem
+    }
+}
